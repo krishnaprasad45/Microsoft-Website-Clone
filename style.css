@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.bodystyle{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    height: 20px;
+    margin-top: -17px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 450px;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    top:10%;
+    left: 7% !important;
+    /* top: 15% !important; */
+}
+
+.carousel-caption h3{
+    text-align: left;
+    color: black;
+}
+.carousel-caption p{
+    text-align: left;
+    color: black;
+}
+.carousel-caption button{
+   
+    color: #fff;
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(116, 116, 255) !important;
+    border-radius: 4px;
+}
+.scndh3{
+    color: rgb(255, 255, 255) !important;
+    
+}
+.scndp{
+    color: rgb(255, 255, 255) !important;
+}
+.butt2{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(116, 116, 255) !important;
+    border-radius: 4px;
+}
+main{
+    margin: 40px 0;
+}
+.card{
+    border: none !important;
+}
+.mystyle{
+    width: 100%;
+    height:500px;
+    background-image: url(img/Highlight-Xbox-Series-S-Light-Background_VP5-1596x600.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 20px 0 40px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 300px;
+}
+.butt3{
+    
+    color: #fff;
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    
+    left: 0;
+    background-color: rgb(72, 72, 241) !important;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.mstore h3{
+    color: black;
+    font-weight: bold;
+}
+.mstore p{
+    color: black;
+    
+}
+.busi{
+    font-size: 39px;
+    font-weight: 500 ;
+}
+footer li{
+    list-style: none;
+    color: #818181;
+    font-size: 10px;
+}
+
+
+.Socialsec{
+    margin-bottom: 60px;
+}
+
+footer{
+    background-color: #F2F2F2;
+    padding-top: 40px ;
+}
+.spa{
+    padding-left: 0 !important;
+    column-gap: 20px;
+}
+.spa p,li{
+    padding-bottom: 13px;
+}
+.endspace{
+    margin-top: 20px;
+}
+
+.glob p{
+    font-size: 10px;
+}
+.spacebw{
+    display: flex;
+    justify-content: space-between;
+}
+.english{
+    display: flex;
+    
+}
+.english p{
+    padding-left: 15px;
+    
+}
+.spacebw p{
+    font-size: 10px;
+}
+.pic1{
+    background-image: url(img/bg1.avif);
+    background-size: 100% 100%;
+}
+.pic2{
+    background-image: url(img/bg2.jpg);
+    background-size: 100% 100%;
+    
+}
+@media only screen and (max-width: 600px)  {
+    .mystyle{
+        width: 100%;
+        height:300px;
+        background-image: url(img/xboxsm.webp);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: 20px 0 40px 0;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        padding-right: 14rem;
+    }
+
+    .pic1{
+        background-image: url(img/small.avif);
+        background-size: 100% 100%;
+        height: 300px !important;
+    }
+    .pic2{
+        background-image: url(img/small2.avif);
+        background-size: 100% 100%;
+        height: 300px !important;
+  }
+}
+
+ 
